@@ -1,0 +1,45 @@
+Dialogue system ✔
+	Extra effects ✔
+	Story progression ✔
+	Name input ✔
+	Name placement ✔
+	
+Game mechanics
+	Stamina ✔
+	Inventory ✔
+	Flashlights and Batteries
+	Battle System
+	Health
+	Food and Eating
+	Killing 919s
+	Dogging
+	
+Save and Load menu
+
+Save points
+
+Autosave
+
+Cutscenes
+
+Main Menu
+	Settings
+		Audio
+		Window size
+		
+Pause Menu
+
+Lore (Final Code) (Hopefully)
+
+Final Sprites and BG
+	Cain
+	Casey
+	Rue
+	919
+	Harley
+	Kiann
+	I don’t remember the rest
+	
+Music/Audio
+
+Final touches

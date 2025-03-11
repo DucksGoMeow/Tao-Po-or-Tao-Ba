@@ -1,0 +1,2 @@
+firsttime = false;
+amongus = false;

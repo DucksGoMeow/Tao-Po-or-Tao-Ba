@@ -1,0 +1,1 @@
+ global.player_name = "No Name Yet";
