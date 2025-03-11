@@ -3,8 +3,8 @@
   "%Name":"spr_fireescape2_overlay",
   "bboxMode":0,
   "bbox_bottom":882,
-  "bbox_left":43,
-  "bbox_right":1486,
+  "bbox_left":269,
+  "bbox_right":1488,
   "bbox_top":453,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e282ace9-0b43-4724-a180-8f76a631b6da","name":"e282ace9-0b43-4724-a180-8f76a631b6da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"624f0c88-44aa-4688-a6fd-d64a5383fbbb","name":"624f0c88-44aa-4688-a6fd-d64a5383fbbb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"84aac094-4e2f-4dc1-b805-97964d94082d","blendMode":0,"displayName":"default","isLocked":false,"name":"84aac094-4e2f-4dc1-b805-97964d94082d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fb274cf2-4b83-4a77-b27f-39f472d7d744","blendMode":0,"displayName":"default","isLocked":false,"name":"fb274cf2-4b83-4a77-b27f-39f472d7d744","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_fireescape2_overlay",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e282ace9-0b43-4724-a180-8f76a631b6da","path":"sprites/spr_fireescape2_overlay/spr_fireescape2_overlay.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fb0603af-e1d5-4c00-ae15-e04f7d8a7891","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"624f0c88-44aa-4688-a6fd-d64a5383fbbb","path":"sprites/spr_fireescape2_overlay/spr_fireescape2_overlay.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2b93889c-73e7-47e5-9ebe-da88cf07a5ba","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
