@@ -1,5 +1,5 @@
-camWidth = 1500 ;
-camHeight = 860; 
+camWidth = 1920;
+camHeight = 1080; 
 
 follow = obj_player;
 
