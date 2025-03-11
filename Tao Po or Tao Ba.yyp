@@ -37,7 +37,6 @@
     {"$GMFolder":"","%Name":"Player Stats","folderPath":"folders/Sprites/Player/Player Stats.yy","name":"Player Stats","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"chatterboxtut.yarn","CopyToMask":-1,"filePath":"datafiles","name":"chatterboxtut.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"DTM-Sans.otf","CopyToMask":-1,"filePath":"datafiles","name":"DTM-Sans.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -103,10 +102,8 @@
     {"id":{"name":"spr_nametextbox","path":"sprites/spr_nametextbox/spr_nametextbox.yy",},},
     {"id":{"name":"spr_option","path":"sprites/spr_option/spr_option.yy",},},
     {"id":{"name":"spr_playerleft_idle","path":"sprites/spr_playerleft_idle/spr_playerleft_idle.yy",},},
-    {"id":{"name":"spr_playerleft_running","path":"sprites/spr_playerleft_running/spr_playerleft_running.yy",},},
     {"id":{"name":"spr_playerleft_walking","path":"sprites/spr_playerleft_walking/spr_playerleft_walking.yy",},},
     {"id":{"name":"spr_playerright_idle","path":"sprites/spr_playerright_idle/spr_playerright_idle.yy",},},
-    {"id":{"name":"spr_playerright_running","path":"sprites/spr_playerright_running/spr_playerright_running.yy",},},
     {"id":{"name":"spr_playerright_walking","path":"sprites/spr_playerright_walking/spr_playerright_walking.yy",},},
     {"id":{"name":"spr_portrait_blue","path":"sprites/spr_portrait_blue/spr_portrait_blue.yy",},},
     {"id":{"name":"spr_portrait_cass_annoyed","path":"sprites/spr_portrait_cass_annoyed/spr_portrait_cass_annoyed.yy",},},
