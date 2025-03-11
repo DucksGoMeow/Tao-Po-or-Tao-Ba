@@ -1,17 +1,17 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_starting",
+  "%Name":"rm_entrance",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_127AA7C6","path":"rooms/rm_starting/rm_starting.yy",},
-    {"name":"inst_16BC0D6B","path":"rooms/rm_starting/rm_starting.yy",},
-    {"name":"inst_67DB015B","path":"rooms/rm_starting/rm_starting.yy",},
-    {"name":"inst_44B92DB","path":"rooms/rm_starting/rm_starting.yy",},
-    {"name":"inst_7EAD3DDD","path":"rooms/rm_starting/rm_starting.yy",},
-    {"name":"inst_16C5EFDB","path":"rooms/rm_starting/rm_starting.yy",},
+    {"name":"inst_127AA7C6","path":"rooms/rm_entrance/rm_entrance.yy",},
+    {"name":"inst_16BC0D6B","path":"rooms/rm_entrance/rm_entrance.yy",},
+    {"name":"inst_67DB015B","path":"rooms/rm_entrance/rm_entrance.yy",},
+    {"name":"inst_44B92DB","path":"rooms/rm_entrance/rm_entrance.yy",},
+    {"name":"inst_7EAD3DDD","path":"rooms/rm_entrance/rm_entrance.yy",},
+    {"name":"inst_16C5EFDB","path":"rooms/rm_entrance/rm_entrance.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -26,7 +26,7 @@
     {"$GMRAssetLayer":"","%Name":"spr_background","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"spr_background","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_starting",
+  "name":"rm_entrance",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
