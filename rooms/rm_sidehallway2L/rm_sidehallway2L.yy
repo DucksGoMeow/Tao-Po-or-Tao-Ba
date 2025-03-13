@@ -8,6 +8,8 @@
   "instanceCreationOrder":[
     {"name":"inst_127AA7C6_1_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_sidehallway2L/rm_sidehallway2L.yy",},
     {"name":"inst_A819101","path":"rooms/rm_sidehallway2L/rm_sidehallway2L.yy",},
+    {"name":"inst_3F80DB83","path":"rooms/rm_sidehallway2L/rm_sidehallway2L.yy",},
+    {"name":"inst_4A50BCCD","path":"rooms/rm_sidehallway2L/rm_sidehallway2L.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -17,6 +19,8 @@
       ],"layers":[],"name":"border","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_A819101","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A819101","objectId":{"name":"obj_warp3","path":"objects/obj_warp3/obj_warp3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6645833,"scaleY":0.26041666,"x":0.0,"y":832.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3F80DB83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F80DB83","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":15.0,"x":3712.0,"y":489.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4A50BCCD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A50BCCD","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":15.0,"x":32.0,"y":480.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"background","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2B305A49","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2B305A49","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_sidehallway2R_bg","path":"sprites/spr_sidehallway2R_bg/spr_sidehallway2R_bg.yy",},"x":0.0,"y":0.0,},
