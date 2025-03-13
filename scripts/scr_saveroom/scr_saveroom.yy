@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"particles",
+  "%Name":"scr_saveroom",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"particles",
+  "name":"scr_saveroom",
   "parent":{
     "name":"Player Stuff",
     "path":"folders/Scripts/Player Stuff.yy",
