@@ -1,0 +1,1 @@
+draw_sprite(spr_cloth, 0 ,x, y);

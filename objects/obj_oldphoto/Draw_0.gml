@@ -1,0 +1,1 @@
+draw_sprite(spr_oldphoto, 0 ,x, y);

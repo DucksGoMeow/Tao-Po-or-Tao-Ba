@@ -1,0 +1,1 @@
+draw_sprite(spr_coin, 0 ,x, y);

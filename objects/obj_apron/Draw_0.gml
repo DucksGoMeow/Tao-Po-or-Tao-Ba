@@ -1,0 +1,1 @@
+draw_sprite(spr_apron, 0 ,x, y);

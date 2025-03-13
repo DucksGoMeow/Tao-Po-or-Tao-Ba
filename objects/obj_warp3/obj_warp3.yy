@@ -9,8 +9,8 @@
   "name":"obj_warp3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Room Things",
+    "path":"folders/Objects/Room Things.yy",
   },
   "parentObjectId":null,
   "persistent":false,
