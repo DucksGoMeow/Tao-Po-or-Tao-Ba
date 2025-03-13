@@ -344,4 +344,35 @@ topics[$ "Said Name"] = [
 
 #endregion
 
+#region Itms
+
+topics[$ "Want Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENISWENI", spr_portrait_cass, PORTRAIT_SIDE.LEFT),
+	TEXT("Hi, could you bring me a blue amongus?"),
+		
+];
+
+
+topics[$ "Wanted Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENIWENI",  spr_portrait_cass, PORTRAIT_SIDE.LEFT),
+	TEXT("A blue amongus please"),
+	
+];
+
+topics[$ "Give Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENIWENI",  spr_portrait_cass, PORTRAIT_SIDE.LEFT),
+	TEXT("Oh thanks! This sure is blue"),
+	
+];
+
+topics[$ "Has Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENIWENI",  spr_portrait_cass_annoyed, PORTRAIT_SIDE.LEFT),
+	TEXT("I don't need anymore. Go away"),
+	
+];
+
 }

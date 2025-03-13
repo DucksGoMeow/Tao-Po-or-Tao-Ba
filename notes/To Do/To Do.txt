@@ -4,6 +4,7 @@ Dialogue system ✔
 	
 Game mechanics
 	Inventory ✔
+	Task Bar
 	Day and Night Cycle
 	
 Cutscenes
