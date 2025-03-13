@@ -1,3 +1,3 @@
-targetRoom = rm_basementelevator;
-targetX = 4448;
+targetRoom = rm_basement;
+targetX = 5280;
 targetY = 256;
