@@ -1,0 +1,1 @@
+draw_sprite(spr_tornpage, 0 ,x, y);

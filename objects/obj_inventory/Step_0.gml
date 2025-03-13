@@ -1,3 +1,4 @@
+#region Test items
 var meettest = false
 var meettest2 = false
 var meettest3 = false
@@ -57,6 +58,47 @@ if (keyboard_check_pressed(ord("E"))) {
   {
     inventoryAdd(id, obj_item2);
 	instance_destroy(obj_item2)
+	}
+}
+#endregion
+#endregion
+
+#region torn page
+var meettornpage = false 
+
+if (mouse_check_button_pressed(mb_left)) {
+  with (obj_player) //for each object 2
+  {
+    if place_meeting(x, y, obj_tornpage)  //test if it's meeting an object3. if it is,
+      {
+        meettornpage = true //set the toggle variable to true
+        break; //stop looking, cuz you've already found a meeting pair
+		}
+	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
+	if meettornpage = true //if that toggle variable is true
+  {
+    inventoryAdd(id, obj_tornpage);
+	instance_destroy(obj_tornpage);
+	}
+}
+#endregion
+
+#region torn page
+var meetbrokenmirror = false 
+
+if (mouse_check_button_pressed(mb_left)) {
+  with (obj_player) //for each object 2
+  {
+    if place_meeting(x, y, obj_brokenmirror)  //test if it's meeting an object3. if it is,
+      {
+        meetbrokenmirror = true //set the toggle variable to true
+        break; //stop looking, cuz you've already found a meeting pair
+		}
+	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
+	if meetbrokenmirror = true //if that toggle variable is true
+  {
+    inventoryAdd(id, spr_items);
+	instance_destroy(obj_brokenmirror);
 	}
 }
 #endregion

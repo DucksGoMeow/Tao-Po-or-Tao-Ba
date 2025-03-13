@@ -1,4 +1,4 @@
-//how many slots in an inventory
+ //how many slots in an inventory
 #macro INVENTORY_SLOTS 5
 
 //slots per row

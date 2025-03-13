@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_item",
+  "%Name":"obj_brokenmirror",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_item",
+  "name":"obj_brokenmirror",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sample Items",
-    "path":"folders/Objects/Items/Sample Items.yy",
+    "name":"Items",
+    "path":"folders/Objects/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_testItem",
-    "path":"sprites/spr_testItem/spr_testItem.yy",
+    "name":"spr_brokenmirror",
+    "path":"sprites/spr_brokenmirror/spr_brokenmirror.yy",
   },
   "spriteMaskId":null,
   "visible":true,

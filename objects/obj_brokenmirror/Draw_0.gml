@@ -1,0 +1,1 @@
+draw_sprite(spr_brokenmirror, 0 ,x, y);

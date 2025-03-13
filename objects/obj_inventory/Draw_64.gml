@@ -9,7 +9,8 @@ if(instance_exists(obj_player)){
 	draw_sprite(spr_slot, 0, xx, yy);
 	
 		if (inventory[i] != -1){
-		draw_sprite(spr_testItem, inventory[i], xx, yy);
+		draw_sprite(spr_items, inventory[i], xx, yy);
+
 		}
 	}
 }
