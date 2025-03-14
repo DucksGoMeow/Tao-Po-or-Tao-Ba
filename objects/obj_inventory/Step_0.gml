@@ -1,4 +1,4 @@
-  #region Test items
+ #region Test items
 var meettest = false
 var meettest2 = false
 
@@ -48,6 +48,7 @@ if (global.itemfound = true) {
  #region pen
 var meetpen = false 
 
+
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
   {
@@ -59,14 +60,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetpen = true //if that toggle variable is true
   {
-    inventoryAdd(id, 0);
-	instance_destroy(obj_pen);
+		inventoryAdd(id, 0);
+		global.haspen = true
+		instance_destroy(obj_pen);
+	}
+
+	if (global.penfound = true) {
+		inventoryRemove(id, 0)
 	}
 }
 #endregion
  
  #region key
-var meetkey = false 
+var meetkey = false
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -79,14 +85,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetkey = true //if that toggle variable is true
   {
-    inventoryAdd(id, 1);
-	instance_destroy(obj_rustyroomkey);
+		inventoryAdd(id, 1);
+		global.haskey = true
+		instance_destroy(obj_rustyroomkey);
+	}
+	if (global.keyfound = true) {
+		inventoryRemove(id, 1)
 	}
 }
 #endregion
  
- #region receipts
+#region receipts
 var meetreceits = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -99,14 +110,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetreceits = true //if that toggle variable is true
   {
-    inventoryAdd(id, 2);
-	instance_destroy(obj_stackofreceipts);
+   		inventoryAdd(id, 2);
+		global.hasreceipts = true
+		instance_destroy(obj_stackofreceipts);
+	}
+		if (global.receiptsfound = true) {
+			inventoryRemove(id, 2)
 	}
 }
 #endregion
  
  #region torn page
 var meettornpage = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -119,14 +135,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettornpage = true //if that toggle variable is true
   {
-    inventoryAdd(id, 3);
-	instance_destroy(obj_tornpage);
+    	inventoryAdd(id, 3);
+		global.hastornpage = true
+		instance_destroy(obj_tornpage);
+	}
+		if (global.tornpagefound = true) {
+			inventoryRemove(id, 3)
 	}
 }
 #endregion
  
-  #region toolbox
+ #region toolbox
 var meettoolbox = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -139,14 +160,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettoolbox = true //if that toggle variable is true
   {
-    inventoryAdd(id, 4);
-	instance_destroy(obj_toolbox);
+   		inventoryAdd(id, 4);
+		global.hastoolbox = true
+		instance_destroy(obj_toolbox);
+	}
+		if (global.toolboxfound = true) {
+			inventoryRemove(id, 4)
 	}
 }
 #endregion
  
- #region journal
+#region journal
 var meetjournal = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -159,14 +185,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetjournal = true //if that toggle variable is true
   {
-    inventoryAdd(id, 5);
-	instance_destroy(obj_journal);
+    	inventoryAdd(id, 5);
+		global.hasjournal = true
+		instance_destroy(obj_journal);
+	}
+		if (global.journalfound = true) {
+			inventoryRemove(id, 5)
 	}
 }
 #endregion
  
 #region photo
 var meetphoto = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -179,14 +210,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetphoto = true //if that toggle variable is true
   {
-    inventoryAdd(id, 6);
-	instance_destroy(obj_oldphoto);
+		inventoryAdd(id, 6);
+		global.hasoldphoto = true
+		instance_destroy(obj_oldphoto);
+	}
+		if (global.oldphotofound = true) {
+			inventoryRemove(id, 6)
 	}
 }
 #endregion
  
 #region coin
 var meetcoin = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -199,14 +235,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetcoin = true //if that toggle variable is true
   {
-    inventoryAdd(id, 7);
-	instance_destroy(obj_coin);
+   		inventoryAdd(id, 7);
+		global.hascoin = true
+		instance_destroy(obj_coin);
+	}
+		if (global.coinfound = true) {
+			inventoryRemove(id, 7)
 	}
 }
 #endregion
  
 #region cloth
 var meetcloth = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -219,14 +260,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetcloth = true //if that toggle variable is true
   {
-    inventoryAdd(id, 8);
-	instance_destroy(obj_cloth);
+   		inventoryAdd(id, 8);
+		global.hascloth = true
+		instance_destroy(obj_cloth);
+	}
+		if (global.clothfound = true) {
+			inventoryRemove(id, 8)
 	}
 }
 #endregion
  
- #region candle
+#region candle
 var meetcandle = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -239,14 +285,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetcandle = true //if that toggle variable is true
   {
-    inventoryAdd(id, 9);
-	instance_destroy(obj_candle);
+  		inventoryAdd(id, 9);
+		global.hascandle = true
+		instance_destroy(obj_candle);
+	}
+		if (global.candlefound = true) {
+			inventoryRemove(id, 9)
 	}
 }
 #endregion
  
 #region apron
 var meetapron = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -259,14 +310,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetapron = true //if that toggle variable is true
   {
-    inventoryAdd(id, 10);
-	instance_destroy(obj_apron);
+    	inventoryAdd(id, 10);
+		global.hasapron = true
+		instance_destroy(obj_apron);
+	}
+		if (global.apronfound = true) {
+			inventoryRemove(id, 10)
 	}
 }
 #endregion
 
 #region brokenmirror
 var meetbrokenmirror = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -279,14 +335,19 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meetbrokenmirror = true //if that toggle variable is true
   {
-    inventoryAdd(id, 11);
-	instance_destroy(obj_brokenmirror);
+    	inventoryAdd(id, 11);
+		global.hasbrokenmirror = true
+		instance_destroy(obj_brokenmirror);
+	}
+		if (global.brokenmirrorfound = true) {
+			inventoryRemove(id, 11)
 	}
 }
 #endregion
 
 #region letter
 var meettornletter = false 
+
 
 if (mouse_check_button_pressed(mb_left)) {
   with (obj_player) //for each object 2
@@ -299,8 +360,12 @@ if (mouse_check_button_pressed(mb_left)) {
 	} //if no object2 meets object3, then meet23 will stay false since no one set it to true
 	if meettornletter = true //if that toggle variable is true
   {
-    inventoryAdd(id, 12);
-	instance_destroy(obj_tornletter);
+  		inventoryAdd(id, 12);
+		global.hastornletter = true
+		instance_destroy(obj_tornletter);
+	}
+		if (global.tornletterfound = true) {
+			inventoryRemove(id, 12)
 	}
 }
 #endregion

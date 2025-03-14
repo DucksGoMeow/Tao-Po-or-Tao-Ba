@@ -21,7 +21,7 @@
   "name":"rm_livingroom",
   "parent":{
     "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "path":"folders/Rooms/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

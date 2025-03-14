@@ -344,7 +344,7 @@ topics[$ "Said Name"] = [
 
 #endregion
 
-#region Itms
+#region Items
 
 topics[$ "Want Item"] = [
 	//TEXT(" ")
@@ -374,5 +374,43 @@ topics[$ "Has Item"] = [
 	TEXT("I don't need anymore. Go away"),
 	
 ];
+#endregion
+
+#region The Avy Special
+
+topics[$ "A Want Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENISWENI", spr_portrait_cass, PORTRAIT_SIDE.LEFT),
+	TEXT("Hi avy!"),
+	TEXT("It's me! Cass!"),
+	TEXT("I look like a smiski and my name here is PENISWENI"),
+	TEXT("Ok anyway go get me a key, an apron, a toolbox, a candle, and a stack of paper"),
+	TEXT("Please and thanks")
+		
+];
+
+
+topics[$ "A Wanted Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENIWENI",  spr_portrait_cass, PORTRAIT_SIDE.LEFT),
+	TEXT("Go get the items I asked for"),
+	
+];
+
+topics[$ "A Gave Items"] = [
+	//TEXT(" ")
+	SPEAKER("PENIWENI",  spr_portrait_cass, PORTRAIT_SIDE.LEFT),
+	TEXT("Oh hey thanks! You got me everything!"),
+	
+];
+
+
+topics[$ "A Has Item"] = [
+	//TEXT(" ")
+	SPEAKER("PENIWENI",  spr_portrait_cass_annoyed, PORTRAIT_SIDE.LEFT),
+	TEXT("What?"),
+	
+];
+#endregion
 
 }
