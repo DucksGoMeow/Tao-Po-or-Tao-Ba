@@ -19,6 +19,7 @@
   "height":400,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"b538f7ec-c2a1-436d-bbeb-8c70fe605226","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b538f7ec-c2a1-436d-bbeb-8c70fe605226","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"2da50a23-a35a-4ba7-9cba-f188234b6968","blendMode":0,"displayName":"default","isLocked":false,"name":"2da50a23-a35a-4ba7-9cba-f188234b6968","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_clickmetoo",
