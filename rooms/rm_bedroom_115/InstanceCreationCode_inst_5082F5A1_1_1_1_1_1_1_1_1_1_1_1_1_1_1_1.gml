@@ -1,3 +1,3 @@
-targetRoom = rm_bedroom;
+targetRoom = rm_bathroom_115;
 targetX = 1376;
 targetY = 256;
