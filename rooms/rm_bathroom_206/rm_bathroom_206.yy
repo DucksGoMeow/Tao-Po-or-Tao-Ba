@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_127AA7C6_1_1_1_1_1_1_1_3_1_1_1_1_1","path":"rooms/rm_bathroom_206/rm_bathroom_206.yy",},
     {"name":"inst_1715EFCB_2_1_1_1_1_1","path":"rooms/rm_bathroom_206/rm_bathroom_206.yy",},
-    {"name":"inst_2F2E0735_2_1_1_1_1_1","path":"rooms/rm_bathroom_206/rm_bathroom_206.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,7 +17,6 @@
       ],"layers":[],"name":"border","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_1715EFCB_2_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1715EFCB_2_1_1_1_1_1","objectId":{"name":"obj_warp4","path":"objects/obj_warp4/obj_warp4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.565625,"scaleY":1.0,"x":1280.0,"y":913.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2F2E0735_2_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F2E0735_2_1_1_1_1_1","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":256.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"background","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_779EFF7A_2_1_1_1_1_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_779EFF7A_2_1_1_1_1_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_kitchen_bg","path":"sprites/spr_kitchen_bg/spr_kitchen_bg.yy",},"x":0.0,"y":0.0,},

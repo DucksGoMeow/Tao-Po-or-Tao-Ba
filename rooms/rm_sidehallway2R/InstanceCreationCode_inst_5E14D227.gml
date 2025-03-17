@@ -1,3 +1,3 @@
 targetRoom = rm_livingroom_216;
-targetX = 1312;
+targetX = 1472;
 targetY = 256;
