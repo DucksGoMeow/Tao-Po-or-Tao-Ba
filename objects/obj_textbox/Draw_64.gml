@@ -1,4 +1,4 @@
-//background
+ //background
 //draw_sprite(spr_backgrounddialogue, 0, 1, 1)
 
 // Draw the box
@@ -24,7 +24,7 @@ if (sprite_exists(portrait_sprite)) {
 	}
 	else {
 		// Shift the portrait itself over when it is on the right
-		draw_portrait_x = x + width - portrait_width - 180;
+		draw_portrait_x = x + width - portrait_width - 260;
 	}
 	
 	// Draw portrait backing
@@ -36,7 +36,7 @@ if (sprite_exists(portrait_sprite)) {
 		subimg = (text_progress / text_speed) * (sprite_get_speed(portrait_sprite) / game_get_speed(gamespeed_fps));
 		
 	draw_sprite_ext(portrait_sprite, subimg,
-		draw_portrait_x + portrait_width + 10, draw_y + portrait_y + portrait_height - 145,
+		draw_portrait_x + portrait_width + 70, draw_y + portrait_y + portrait_height - 145,
 		portrait_side == PORTRAIT_SIDE.LEFT ? 1 : -1, 1, 0, c_white, 1);
 }
 

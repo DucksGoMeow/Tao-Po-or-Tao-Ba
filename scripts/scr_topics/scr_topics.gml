@@ -10,3 +10,5 @@
 	// See how we call both scr_topics_greeting and scr_topics_examples?
 	// Each time you make a new file for dialogue, call it here to initialize it!
 	scr_topics_sampleDialogues(global.topics);
+	scr_topics_extra(global.topics);
+	scr_topics_main(global.topics);
