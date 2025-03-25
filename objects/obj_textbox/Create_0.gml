@@ -4,7 +4,7 @@
 global.player_name = "No Name Yet";
 
 // Input
-confirm_key = vk_enter; // button to press to go to the next page / select options
+confirm_key = vk_enter or vk_space; // button to press to go to the next page / select options
 up_key = vk_up; // button to scroll up when options are presented
 down_key = vk_down; // button to scroll down when options are presented
 max_input_delay = 5; // how many frames to ignore input (helps prevent order issues as textbox spawns)

@@ -34,7 +34,6 @@ if keyright {
 	//sprite_index = spr_playerfront_walking;
 //}
 
-
 moveX = 0;
 moveY = 0;
 if inputX != 0 or inputY != 0 {
