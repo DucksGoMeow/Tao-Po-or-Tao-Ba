@@ -1,11 +1,10 @@
 //left
-if keyboard_check_released(ord("A")){
+if keyleftreleased{
 	sprite_index = spr_playerleft_idle;
 }
 
-
 //right
-if keyboard_check_released(ord("D")){
+if keyrightreleased{
 	sprite_index = spr_playerright_idle;
 }
 

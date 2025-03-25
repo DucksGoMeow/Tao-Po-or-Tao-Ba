@@ -1,15 +1,22 @@
 inputX = 0; 
 inputY = 0;
+keyleft = keyboard_check(vk_left) or keyboard_check(ord("A"));
+keyright = keyboard_check(vk_right) or keyboard_check(ord("D"));
+keyleftreleased = keyboard_check_released(vk_left) or keyboard_check_released(ord("A"));
+keyrightreleased = keyboard_check_released(vk_right) or keyboard_check_released(ord("D"));
+
 
 //left
-if keyboard_check(ord("A")) {
+if keyleft{
     inputX -= 1;
 	x -= walkspd;
 	sprite_index = spr_playerleft_walking;
+	
 }
 
+
 //right
-if keyboard_check(ord("D")) {
+if keyright {
     inputX += 1;
 	x += walkspd;
 	sprite_index = spr_playerright_walking;
@@ -27,36 +34,6 @@ if keyboard_check(ord("D")) {
 	//sprite_index = spr_playerfront_walking;
 //}
 
-//sprint
-if(keyboard_check(vk_shift)) && (global.stamina > 0){
-	global.stamina -= 1;
-	spd = sprintspd;
-} else {
-	spd = walkspd;
-}
-
-//left sprint
-if keyboard_check(ord("A")) && (keyboard_check(vk_shift)){
-   sprite_index = spr_playerleft_running;
-}
-
-//right sprint
-if keyboard_check(ord("D")) && (keyboard_check(vk_shift)){
-   sprite_index = spr_playerright_running;
-}
-
-//recharging stamina
-if!(keyboard_check(vk_shift)){
-	global.stamina += 0.35;
-}
-
-if(global.stamina > 100){
-	global.stamina = 100;
-}
-
-if(global.stamina < 0){
-	global.stamina = 0;
-}
 
 moveX = 0;
 moveY = 0;

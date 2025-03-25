@@ -5,12 +5,15 @@ function scr_topics_extra(topics){
 	TEXT("Hello World"),
 ];
 
-	topics[$ "Testing Portrait"] = [
+	topics[$ "Warning"] = [
 	//TEXT(" ")
-	SPEAKER("PENISWENI", spr_sampleportrait , PORTRAIT_SIDE.LEFT),
-	CHOICE("Make a <wavy>choicee</wavy>",
-		OPTION("Choice one", "One"),
-		OPTION("Choice two", "Two"))
+	SPEAKER("Warning", spr_warning, PORTRAIT_SIDE.LEFT),
+	TEXT("Welcome to Tao Po or Tao Ba? [Click enter to continue]"),
+	TEXT("This game is in heavy beta, somethings may still be broken"),
+	TEXT("Like the camera"),
+	TEXT("The controls are WASD for movement, left mouse button for interacting with objects, and the enter key for moving though dialogue"),
+	TEXT("We hope you enjoy"),
 ];
+
 
 }

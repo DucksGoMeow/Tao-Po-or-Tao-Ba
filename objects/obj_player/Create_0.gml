@@ -5,6 +5,3 @@ inputY = 0;
 moveDir = 0;
 spd = 10; 
 walkspd = 10;
-sprintspd = 15;
-global.stamina = 100;
-global.staminamax = 100;

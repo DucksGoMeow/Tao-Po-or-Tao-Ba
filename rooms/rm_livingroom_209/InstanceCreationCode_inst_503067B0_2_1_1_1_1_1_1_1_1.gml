@@ -1,3 +1,3 @@
-targetRoom = rm_sidehallway2L;
+targetRoom = rm_sidehallway2L;;
 targetX = 576;
 targetY = 256;
