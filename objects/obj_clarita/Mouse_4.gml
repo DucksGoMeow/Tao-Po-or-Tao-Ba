@@ -4,7 +4,8 @@ if !firsttimeclarita {
 	
 }
 
-
 else {
 	startDialogue("Clarita 2")
  }
+ 
+ 

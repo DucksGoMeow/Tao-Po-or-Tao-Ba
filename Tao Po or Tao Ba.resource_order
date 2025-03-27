@@ -235,6 +235,7 @@
     {"name":"spr_playerright_walking","order":2,"path":"sprites/spr_playerright_walking/spr_playerright_walking.yy",},
     {"name":"spr_pool_bg","order":15,"path":"sprites/spr_pool_bg/spr_pool_bg.yy",},
     {"name":"spr_pool_overlay","order":5,"path":"sprites/spr_pool_overlay/spr_pool_overlay.yy",},
+    {"name":"spr_pool_overlay2","order":10,"path":"sprites/spr_pool_overlay2/spr_pool_overlay2.yy",},
     {"name":"spr_portrait_cass_annoyed","order":2,"path":"sprites/spr_portrait_cass_annoyed/spr_portrait_cass_annoyed.yy",},
     {"name":"spr_portrait_cass_annoyed2","order":3,"path":"sprites/spr_portrait_cass_annoyed2/spr_portrait_cass_annoyed2.yy",},
     {"name":"spr_portrait_cass","order":1,"path":"sprites/spr_portrait_cass/spr_portrait_cass.yy",},

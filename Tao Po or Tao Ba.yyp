@@ -285,6 +285,7 @@
     {"id":{"name":"spr_playerright_walking","path":"sprites/spr_playerright_walking/spr_playerright_walking.yy",},},
     {"id":{"name":"spr_pool_bg","path":"sprites/spr_pool_bg/spr_pool_bg.yy",},},
     {"id":{"name":"spr_pool_overlay","path":"sprites/spr_pool_overlay/spr_pool_overlay.yy",},},
+    {"id":{"name":"spr_pool_overlay2","path":"sprites/spr_pool_overlay2/spr_pool_overlay2.yy",},},
     {"id":{"name":"spr_portrait_blue","path":"sprites/spr_portrait_blue/spr_portrait_blue.yy",},},
     {"id":{"name":"spr_portrait_cass_annoyed","path":"sprites/spr_portrait_cass_annoyed/spr_portrait_cass_annoyed.yy",},},
     {"id":{"name":"spr_portrait_cass_annoyed2","path":"sprites/spr_portrait_cass_annoyed2/spr_portrait_cass_annoyed2.yy",},},
