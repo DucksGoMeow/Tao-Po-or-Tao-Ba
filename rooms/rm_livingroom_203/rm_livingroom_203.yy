@@ -9,6 +9,8 @@
     {"name":"inst_127AA7C6_1_1_1_1_1_1_1_1_1_3_1_1","path":"rooms/rm_livingroom_203/rm_livingroom_203.yy",},
     {"name":"inst_24F50E85_2_1_1","path":"rooms/rm_livingroom_203/rm_livingroom_203.yy",},
     {"name":"inst_3AF0A82E","path":"rooms/rm_livingroom_203/rm_livingroom_203.yy",},
+    {"name":"inst_9C76DD5","path":"rooms/rm_livingroom_203/rm_livingroom_203.yy",},
+    {"name":"inst_6D1F9A9D","path":"rooms/rm_livingroom_203/rm_livingroom_203.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -19,6 +21,8 @@
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_24F50E85_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24F50E85_2_1_1","objectId":{"name":"obj_warp4","path":"objects/obj_warp4/obj_warp4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.67395836,"scaleY":0.9225,"x":1146.0,"y":932.0,},
         {"$GMRInstance":"v1","%Name":"inst_3AF0A82E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3AF0A82E","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.859375,"scaleY":12.90625,"x":1836.5,"y":621.0,},
+        {"$GMRInstance":"v1","%Name":"inst_9C76DD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9C76DD5","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":15.0,"x":32.0,"y":489.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6D1F9A9D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D1F9A9D","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":15.0,"x":1917.0,"y":480.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"background","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_71E3F0BF_2_1_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_71E3F0BF_2_1_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_livingroom_bg","path":"sprites/spr_livingroom_bg/spr_livingroom_bg.yy",},"x":0.0,"y":0.0,},
