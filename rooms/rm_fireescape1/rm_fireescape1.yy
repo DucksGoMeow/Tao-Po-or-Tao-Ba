@@ -11,7 +11,6 @@
     {"name":"inst_6D051503","path":"rooms/rm_fireescape1/rm_fireescape1.yy",},
     {"name":"inst_1DEA497A","path":"rooms/rm_fireescape1/rm_fireescape1.yy",},
     {"name":"inst_2B1865","path":"rooms/rm_fireescape1/rm_fireescape1.yy",},
-    {"name":"inst_2E460709","path":"rooms/rm_fireescape1/rm_fireescape1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,7 +23,6 @@
         {"$GMRInstance":"v1","%Name":"inst_3604AB","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3604AB","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.640625,"scaleY":11.0,"x":1195.0,"y":368.0,},
         {"$GMRInstance":"v1","%Name":"inst_1DEA497A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DEA497A","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":5.21875,"x":389.0,"y":640.0,},
         {"$GMRInstance":"v1","%Name":"inst_2B1865","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B1865","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":5.265625,"x":1531.0,"y":615.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2E460709","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E460709","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.9692308,"scaleY":1.0,"x":768.0,"y":256.0,},
       ],"layers":[],"name":"border","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"background","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2AD6712C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2AD6712C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_fireescape1_bg","path":"sprites/spr_fireescape1_bg/spr_fireescape1_bg.yy",},"x":0.0,"y":0.0,},
